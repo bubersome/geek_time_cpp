@@ -7,6 +7,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake ${CMAKE_MODULE_PATH})
 
 set(Boost_USE_MULTITHREADED OFF)
 find_package(Boost REQUIRED)
+#find_package(PkgConfig)
 find_package(GMP)
 include_directories(${Boost_INCLUDE_DIRS})
 

@@ -16,6 +16,8 @@ int main(){
     vector<string> a  {"a","b","c"};
     vector<string> b  ; // How to copy a to b
     reverseString(a);
+    b=a;
+
     reverseString(b);
     cout << a <<endl;
     cout << b <<endl;
